@@ -38,13 +38,25 @@ class Solution:
 <img width="811" alt="image" src="https://github.com/user-attachments/assets/e9d1bb11-52c8-4915-9fb9-f88b18b0ac6f">
 
 思路
-- [ ] todo
+- 雙指針題目，一個指針指向操作元素，另一個指向被替換元素，並進行反面表列
+- 終止條件為遍歷所有需操作元素
+```python
+class Solution:
+    def removeElement(self, nums: List[int], val: int) -> int:
 
-思考
-- [ ] todo
+        slow = 0
 
-總結
-- [ ] todo
+        for fast in range(len(nums)):
+            if nums[fast] != val:
+                nums[slow] = nums[fast]
+                slow+=1
+
+        return slow
+```
+
+思考 & 總結
+- 一開始有想到這題是雙指針類型的題目，但在決定指針擔任角色時還是有小卡關
+- 卡關的地方在於，對於指針角色定義不明確，自評是要在多練習類似題目
 
 ## Ref
 - https://docs.qq.com/doc/DUG9UR2ZUc3BjRUdY
