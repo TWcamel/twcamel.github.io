@@ -6,7 +6,7 @@
 思路
 - 使用迴圈法，首先需要確認終止條件，迴圈裡面則要確認每次迭代時指針該怎麼作動
 - python 中，處理整數問題建議都向下取整 (`floor` or `//`)
-```
+```python
 class Solution:
     def search(self, nums: List[int], target: int) -> int:
         if len(nums) == 1 and nums[0] == target:
