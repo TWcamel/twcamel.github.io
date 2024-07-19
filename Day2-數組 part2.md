@@ -31,6 +31,15 @@ class Solution:
 題目
 
 <img width="773" alt="image" src="https://github.com/user-attachments/assets/c84ff2a8-035f-4a85-ab79-74e1f7b1a4af">
+<<<<<<< HEAD
+=======
+
+
+思路
+- todo
+```python
+```
+>>>>>>> 3f27433d815a7962f5550501069e43ab64bc09be
 
 
 思路
@@ -57,6 +66,15 @@ class Solution:
 題目
 
 <img width="770" alt="image" src="https://github.com/user-attachments/assets/570722e2-3fae-4561-9c0d-4bea4274be25">
+<<<<<<< HEAD
+=======
+
+
+思路
+- todo
+```python
+```
+>>>>>>> 3f27433d815a7962f5550501069e43ab64bc09be
 
 
 思路
