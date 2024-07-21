@@ -1,6 +1,9 @@
 # [203. Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/description/)
 題目
 
+![image](https://github.com/user-attachments/assets/092565e4-35ce-4cff-876a-117c4e5adb49)
+
+
 思路
 - 延續指針，鍊表也是將節點的下個指針指向下個節點
 - 若要進行刪除，則將鍊表中的下個節點指向下下個即可完成刪除
@@ -28,6 +31,9 @@ class Solution:
 
 # [707. Design Linked List](https://leetcode.com/problems/design-linked-list/description/)
 題目
+
+![image](https://github.com/user-attachments/assets/cf67f1ae-fd87-4045-9eac-88c30741c46c)
+
 
 思路
 - 本題考驗對於鍊表的熟悉度，綜合各種操作元素
@@ -106,6 +112,9 @@ class MyLinkedList:
 
 # [206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/description/)
 題目
+
+![image](https://github.com/user-attachments/assets/908e32da-ad23-41e2-8b7a-56413e19ef4f)
+
 
 思路
 - 最終結果是整個鍊表翻轉過來，因此先指定兩個指針 pre, cur
