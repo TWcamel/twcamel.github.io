@@ -1,6 +1,9 @@
 # [454. 4Sum II](https://leetcode.com/problems/4sum-ii/description/)
 題目
 
+![image](https://github.com/user-attachments/assets/3f7ce639-aebd-4e94-b195-06367e82c41f)
+
+
 思路
 - 此題為 [1. Two Sum](https://leetcode.com/problems/two-sum/description/) 的延伸
 - 這題題目最基本的解法是將四個數組內的每個數字排列出來進行加總
@@ -24,6 +27,9 @@ class Solution:
 
 # [383. Ransom Note](https://leetcode.com/problems/ransom-note/description/)
 題目
+
+![image](https://github.com/user-attachments/assets/f2bde29a-42a4-4df2-a897-ceaa1308e871)
+
 
 思路
 - 此題目需要判斷 ransomNote 內的元素數量，是否被 magazine 所包含住
@@ -49,6 +55,9 @@ class Solution:
 
 # [15. 3Sum](https://leetcode.com/problems/3sum/description/)
 題目
+
+![image](https://github.com/user-attachments/assets/1d0449e5-6c2a-453e-b39d-e4aed54befdc)
+
 
 思路
 - 一開始做題時想不到解法，所以有看了提示
@@ -93,6 +102,9 @@ class Solution:
 
 # [18. 4Sum](https://leetcode.com/problems/4sum/description/)
 題目
+
+![image](https://github.com/user-attachments/assets/5a6f7f9f-d78b-4a8e-a831-0febff886317)
+
 
 - 此題目為 [15. 3Sum](https://leetcode.com/problems/3sum/description/) 的延伸題
 - 想法是固定兩個數字，讓剩下的給雙指針去處理
