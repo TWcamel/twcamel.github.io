@@ -1,6 +1,9 @@
 # [242. Valid Anagram](https://leetcode.com/problems/valid-anagram/description/)
 題目
 
+![image](https://github.com/user-attachments/assets/08701103-fa64-4c41-9072-86a89d05af10)
+
+
 思路
 - 此題關鍵為英文字母小寫 26 個, 預計算兩個字串是否每個 char 出現的頻率皆相同
   1. 法一: array 
@@ -49,6 +52,9 @@
 # [349. Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/description/)
 題目
 
+![image](https://github.com/user-attachments/assets/60df5ccf-1fd0-4587-9a01-746fbfa6eedb)
+
+
 思路
 - 透過 "不得重複"，第一時間可以想到是 Hash table
 - 此外，需要交叉查找兩組 Array 才能夠算得相交數字為何，因此最後的複雜度為 O(N+M)
@@ -70,6 +76,9 @@ class Solution:
 
 # [202. Happy Number](https://leetcode.com/problems/happy-number/description/)
 題目
+
+![image](https://github.com/user-attachments/assets/70b4693a-8c5f-438a-9a10-6709d98718e1)
+
 
 思路
 - 此題關鍵在於，"若數字重複，則永遠不會到達 1"，而想到重複，第一個就會想到 Hash Table
@@ -93,6 +102,9 @@ class Solution:
 
 # [1. Two Sum](https://leetcode.com/problems/two-sum/description/)
 題目
+
+![image](https://github.com/user-attachments/assets/d4609eae-82a0-4bd6-8eee-e04c8fe03cd8)
+
 
 - Leetcode 的第一個題目，這題是暴力解的改良版，即，讓暴力解有了記憶性，並使用 Hash Map 加速查找效率
 ```python
