@@ -1,6 +1,9 @@
 # [24. Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/description/)
 題目
 
+![image](https://github.com/user-attachments/assets/0d1f9c82-e210-44c8-8dcc-ce6a9aaac585)
+
+
 思路
 - 此題與 206. 不同處在於，如果將 n%2 作為一個小區，在小區內反轉鍊表，最後會不小心寫成一個 cycle 不然就是小區一的最後一個節點找不到下個小區的第一個節點
 - 最終返回結果需是初始鍊表的第二個節點，因此使用 dummy
@@ -29,8 +32,11 @@ class Solution:
         return dummy.next
 ```
 
-# [19. Remove Nth Node From End of List](https://leetcode.com/problems/swap-nodes-in-pairs/description/)
+# [19. Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/description/)
 題目
+
+![image](https://github.com/user-attachments/assets/0d7b0bd1-506d-4928-9f26-0f1ada529088)
+
 
 思路
 - 觀察一下，此題的總結點數量與倒數第 n 個節點，與回傳值之間的關係
@@ -65,6 +71,9 @@ class Solution:
 
 # [142. Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/description/)
 題目
+
+![image](https://github.com/user-attachments/assets/1d8e56a7-73fb-453d-975b-92ea4c67cbc8)
+
 
 思路
 - 首先看到題目的時候寫了以下的 code 
@@ -130,6 +139,9 @@ class Solution:
 
 # [160. Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/description/)
 題目
+
+![image](https://github.com/user-attachments/assets/a8a51b05-2042-4c1f-8f90-bc01a2e4662c)
+
 
 - 此題考相遇的點，由於兩條鍊表長短不同，因此先遍歷完兩邊的長度，當把兩邊差異都消除後，兩邊一起往前走一步就會到達相遇點
 ```python
