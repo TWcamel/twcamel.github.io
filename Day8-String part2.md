@@ -1,6 +1,8 @@
 # [151. Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/description/)
 題目
 
+![image](https://github.com/user-attachments/assets/842f220f-c9a5-4d34-b8b9-72b6d1a047db)
+
 思路
 - 整個算法最核心的概念是"反轉"
 - 但這邊有個問題是，如何翻轉單字? -> 讓整個字串翻轉完成後，再針對單字做翻轉，即可達到效果
@@ -56,6 +58,9 @@ class Solution:
 # [右旋字符串](https://kamacoder.com/problempage.php?pid=1065)
 題目
 
+![image](https://github.com/user-attachments/assets/671c16e6-8691-41f3-8aaf-e9fdd907d87b)
+
+
 思路
 - python 字串操作要注意 `:` 左右邊的用法
 ```python
@@ -67,6 +72,9 @@ print(s[len(s)-n:] + s[:(len(s)-n)])
 
 # [28. Find the Index of the First Occurrence in a String](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/description/)
 題目
+
+![image](https://github.com/user-attachments/assets/ae091b46-a8a9-4a02-b012-69f43cf6db37)
+
 
 ## 暴力解
 - 思路
@@ -132,6 +140,8 @@ print(s[len(s)-n:] + s[:(len(s)-n)])
 
 # [459. Repeated Substring Pattern](https://leetcode.com/problems/repeated-substring-pattern/description/)
 題目
+
+![image](https://github.com/user-attachments/assets/f3da24c4-3244-4c54-8dcc-7cda8f069b0d)
 
 思路
 - 本題目的解題邏輯是，若將原字串去頭去尾後 concat，後面的子串做前串，前面的子串作後串，若還能組出字串 `s`，就代表有重複字串
