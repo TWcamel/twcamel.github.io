@@ -1,6 +1,8 @@
 # [150. Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/description/)
 題目
 
+<img width="611" alt="image" src="https://github.com/user-attachments/assets/b5f241fd-8d62-4c35-8ef0-db1560388041">
+
 思路
 - 仔細觀察，若用 stack 可以輕易完成此題目
 ```python
@@ -32,6 +34,8 @@ class Solution:
 
 # [239. Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/description/)
 題目
+
+<img width="750" alt="image" src="https://github.com/user-attachments/assets/de55bd3e-62d9-46b8-b561-02498435fc23">
 
 思路
 - 此題需要用單調隊列來解，但首先一個非常困難的問題是，該如何讓隊列裡面的頭元素維持最大
@@ -74,6 +78,8 @@ class Solution:
 
 # [347. Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/description/)
 題目
+
+<img width="630" alt="image" src="https://github.com/user-attachments/assets/c2505d44-033a-488a-b76f-7eddcc0bf935">
 
 思路
 - 法一: 此題可以當作上一題 [239. Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/description/) 的延續，將 nums 排序後，將數組中的每組數字，最後一位留下記數值，其餘留零，接著用一個 單調隊列 維護記數值大到小排j
