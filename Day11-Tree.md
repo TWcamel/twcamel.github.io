@@ -1,6 +1,8 @@
 # [144. Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/description/)
 題目
 
+<img width="619" alt="image" src="https://github.com/user-attachments/assets/42a22f4b-5d40-4a6b-a47f-5c9c49df6134">
+
 - 遞迴法
 ```python
 # Definition for a binary tree node.
@@ -75,6 +77,8 @@ class Solution:
 
 # [145. Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/description/)
 題目
+
+<img width="490" alt="image" src="https://github.com/user-attachments/assets/85f6dc4a-639c-49d6-826d-7800cd45c7dc">
 
 - 遞迴法
 ```python
@@ -151,6 +155,8 @@ class Solution:
 
 # [94. Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/description/)
 題目
+
+<img width="430" alt="image" src="https://github.com/user-attachments/assets/25076bf4-8bca-4bca-a5f5-e95666ad11c0">
 
 - 遞迴法
 ```python
@@ -233,6 +239,8 @@ class Solution:
 ```
 
 # [102. Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/description/)
+
+<img width="607" alt="image" src="https://github.com/user-attachments/assets/e881d4a1-bb76-4a6a-815c-a8a698e35aad">
 
 ```python
 # Definition for a binary tree node.
