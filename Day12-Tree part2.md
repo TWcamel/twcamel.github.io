@@ -1,6 +1,8 @@
 # [226. Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/description/)
 題目
 
+<img width="357" alt="image" src="https://github.com/user-attachments/assets/e0c14790-a8b4-4cf7-b0c6-83f5a51beeef">
+
 - 遞迴法
 ```python
 # Definition for a binary tree node.
@@ -62,6 +64,8 @@ class Solution:
 # [101. Symmetric Tree](https://leetcode.com/problems/symmetric-tree/description/)
 題目
 
+<img width="360" alt="image" src="https://github.com/user-attachments/assets/e84124dc-b469-433f-a95a-d343ca27d5c2">
+
 - 層序法 + 雙指針
 ```python
 # Definition for a binary tree node.
@@ -106,6 +110,8 @@ class Solution:
 
 # [104. Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/description/)
 題目
+
+<img width="438" alt="image" src="https://github.com/user-attachments/assets/e406f179-33b3-4ca3-ab34-18a1c273f8c0">
 
 - dfs
 ```python
@@ -155,6 +161,8 @@ class Solution:
 
 # [111. Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/description/)
 題目
+
+<img width="405" alt="image" src="https://github.com/user-attachments/assets/ec582dd9-c08b-4a23-9811-afc3f41c8fa1">
 
 - dfs
 ```python
