@@ -1,6 +1,8 @@
 # [110. Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/description/)
 題目
 
+<img width="243" alt="image" src="https://github.com/user-attachments/assets/3df40120-2e6a-4b4d-86ce-f29bdc971990">
+
 - 遞迴法
 - 注意本題要求的是“高度”而不是“深度”
 - 注意求高度時，因為是 bottom-up，因此必須是 **post-order traverse** 遍歷
@@ -29,6 +31,8 @@ class Solution:
 
 # [257. Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths/description/)
 題目
+
+<img width="247" alt="image" src="https://github.com/user-attachments/assets/0b603b03-4673-4dd8-83ac-259924a8504b">
 
 - 遞迴法
 ```python
@@ -61,6 +65,8 @@ class Solution:
 
 # [404. Sum of Left Leaves](https://leetcode.com/problems/sum-of-left-leaves/description/)
 題目
+
+<img width="425" alt="image" src="https://github.com/user-attachments/assets/0e055693-f90b-4c89-925e-698d2063b464">
 
 - dfs
 ```python
@@ -125,6 +131,8 @@ class Solution:
 
 # [222. Count Complete Tree Nodes](https://leetcode.com/problems/count-complete-tree-nodes/description/)
 題目
+
+<img width="657" alt="image" src="https://github.com/user-attachments/assets/972c5e32-7b49-4a1a-bf61-367296a8b3cc">
 
 - 遞迴法
 ```python
