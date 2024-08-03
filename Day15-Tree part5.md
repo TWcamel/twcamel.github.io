@@ -1,6 +1,8 @@
 # [654. Maximum Binary Tree](https://leetcode.com/problems/maximum-binary-tree/description/)
 題目
 
+<img width="760" alt="image" src="https://github.com/user-attachments/assets/e1aecc26-ac1a-40d4-a568-ee6fb9747bbd">
+
 類似題： 
 - [105. Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/description/)
 - [106. Construct Binary Tree from Inorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/description/)
@@ -33,6 +35,8 @@ class Solution:
 # [617. Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees/description/)
 題目
 
+<img width="632" alt="image" src="https://github.com/user-attachments/assets/2332535f-49b8-4080-9ef6-b937c534ef87">
+
 - 遞回法
 ```python
 # Definition for a binary tree node.
@@ -62,6 +66,8 @@ class Solution:
 
 # [700. Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree/description/)
 題目
+
+<img width="624" alt="image" src="https://github.com/user-attachments/assets/23fc82b4-8fa8-4d00-8b33-a85e0b4cfd2b">
 
 - dfs
 ```python
@@ -100,6 +106,8 @@ class Solution:
 
 # [98. Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/description/)
 題目
+
+<img width="512" alt="image" src="https://github.com/user-attachments/assets/eb28ec6a-6971-4a9d-b6c0-e8534119c68b">
 
 - inorder BTS 保證所有元素照升序排列
 ```python
