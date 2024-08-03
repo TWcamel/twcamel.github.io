@@ -170,7 +170,7 @@ class Solution:
 # [105. Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/description/)
 題目
 
-![Uploading image.png…]()
+<img width="635" alt="image" src="https://github.com/user-attachments/assets/01277dc9-c644-4978-b32c-a6f2ceebb7e7">
 
 - 前序數組的第一個元素為切割點，先切中序數組，依中序數組，反過來再切前序數組。一層一層切下去，每次前序數組最後一個元素就是節點元素
 ```python
