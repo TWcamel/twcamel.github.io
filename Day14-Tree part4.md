@@ -1,6 +1,8 @@
 # [513. Find Bottom Left Tree Value](https://leetcode.com/problems/find-bottom-left-tree-value/description/)
 題目
 
+<img width="784" alt="image" src="https://github.com/user-attachments/assets/6714f241-66ed-4673-bc60-c84b9bd2df83">
+
 - dfs
 - 題目要求要最左邊，且最下面的葉子，因此只要保證左邊子節點是第一個訪問的，且取最後一層的子節點即可
 ```python
@@ -67,6 +69,8 @@ class Solution:
 # [112. Path Sum](https://leetcode.com/problems/path-sum/description/)
 題目
 
+<img width="1093" alt="image" src="https://github.com/user-attachments/assets/5a6672f4-140d-472a-9e56-f277d97e462a">
+
 - dfs
 ```python
 # Definition for a binary tree node.
@@ -94,6 +98,8 @@ class Solution:
 
 # [113. Path Sum II](https://leetcode.com/problems/path-sum-ii/description/)
 題目
+
+<img width="851" alt="image" src="https://github.com/user-attachments/assets/a097553d-68e1-4eb1-938b-be0fcf573a16">
 
 - dfs
 ```python
@@ -128,6 +134,8 @@ class Solution:
 # [106. Construct Binary Tree from Inorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/description/)
 題目
 
+<img width="624" alt="image" src="https://github.com/user-attachments/assets/6b872b8a-8e9d-4412-982d-912185971909">
+
 - 以後序數組的最後一個元素為切割點，先切中序數組，依中序數組，反過來再切後序數組。一層一層切下去，每次後序數組最後一個元素就是節點元素
 ```python
 # Definition for a binary tree node.
@@ -161,6 +169,8 @@ class Solution:
 
 # [105. Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/description/)
 題目
+
+![Uploading image.png…]()
 
 - 前序數組的第一個元素為切割點，先切中序數組，依中序數組，反過來再切前序數組。一層一層切下去，每次前序數組最後一個元素就是節點元素
 ```python
