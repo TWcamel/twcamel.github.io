@@ -1,6 +1,8 @@
 # [530. Minimum Absolute Difference in BST](https://leetcode.com/problems/minimum-absolute-difference-in-bst/description/)
 題目
 
+<img width="682" alt="image" src="https://github.com/user-attachments/assets/6efd63c3-f9da-431e-9622-aa9c9b1ce712">
+
 - 類似題 [98. Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/description/)
 ```python
 # Definition for a binary tree node.
@@ -35,6 +37,8 @@ class Solution:
 
 # [501. Find Mode in Binary Search Tree](https://leetcode.com/problems/find-mode-in-binary-search-tree/description/)
 題目
+
+<img width="588" alt="image" src="https://github.com/user-attachments/assets/55f3f587-dc04-40a3-8750-8b598043bec6">
 
 類似題 
 - [98. Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/description/)
@@ -71,6 +75,8 @@ class Solution:
 
 # [236. Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/description/)
 題目
+
+<img width="630" alt="image" src="https://github.com/user-attachments/assets/f391ed10-4063-47c5-943a-7c0e2fbb7273">
 
 - 本題需要 bottom-up, 從下往上回溯
 - 回溯過程中，即使已經找到答案，依然要爆完整棵樹，因為要運用到遞回的 return 值
