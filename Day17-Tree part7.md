@@ -1,6 +1,8 @@
 # [701. Insert into a Binary Search Tree](https://leetcode.com/problems/insert-into-a-binary-search-tree/description/)
 題目
 
+<img width="704" alt="image" src="https://github.com/user-attachments/assets/c13fcc0e-1a74-4023-b0de-bc12da4be19c">
+
 - 可依照順序遍歷，當遇到 null 時，將值給填上即可
 ```python
 # Definition for a binary tree node.
@@ -32,6 +34,8 @@ class Solution:
 
 # [450. Delete Node in a BST](https://leetcode.com/problems/delete-node-in-a-bst/description/)
 題目
+
+<img width="540" alt="image" src="https://github.com/user-attachments/assets/1f8ddce6-17fa-451b-b779-1617db233b4c">
 
 - 遞迴法
 ```python

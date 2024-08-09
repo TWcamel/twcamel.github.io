@@ -1,6 +1,8 @@
 # [77. Combinations](https://leetcode.com/problems/combinations/description/)
 題目
 
+<img width="524" alt="image" src="https://github.com/user-attachments/assets/2ef5ae00-9c7a-4f8b-abcf-edae6ea1028b">
+
 - 回溯經典題，可以將題目抽象成Ｎ叉樹
 ```python
 class Solution:
@@ -47,6 +49,8 @@ class Solution:
 
 # [216. Combination Sum III](https://leetcode.com/problems/combination-sum-iii/description/)
 題目
+
+<img width="728" alt="image" src="https://github.com/user-attachments/assets/2d53a126-c52e-46c7-90c6-cc69fac48fbd">
 
 - 本題為 [77. Combinations](https://leetcode.com/problems/combinations/description/) 延伸，可視為和為 n 的 k 個數的組合，而整個集合已經是固定的了[1,...,9]
 ```python
@@ -100,6 +104,8 @@ class Solution:
 
 # [17. Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/description/)
 題目
+
+<img width="532" alt="image" src="https://github.com/user-attachments/assets/05d5ec8b-83c6-4ba5-834d-ae3ddb90645c">
 
 - 這題跟上面兩題很類似，都是組合類型的問題，而關鍵在於，本題要先建立一個字符對應表，再用此表去找進行回溯
 ```python
