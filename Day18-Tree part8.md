@@ -1,6 +1,8 @@
 # [669. Trim a Binary Search Tree](https://leetcode.com/problems/trim-a-binary-search-tree/description/)
 題目
 
+<img width="538" alt="image" src="https://github.com/user-attachments/assets/38c59346-1b39-4fe5-b790-2dd2c850bd4d">
+
 - 遞回法
   - 我們需要刪除後的元素保留有 BTS 的特性，因此用 bottom-up
 ```python
@@ -56,6 +58,8 @@ class Solution:
 # [108. Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/description/)
 題目
 
+<img width="538" alt="image" src="https://github.com/user-attachments/assets/ff157449-c301-4c38-afc6-5d3064048cf5">
+
 - 類似題
   - [106. Construct Binary Tree from Inorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/description/)
   - [654. Maximum Binary Tree](https://leetcode.com/problems/maximum-binary-tree/description/)
@@ -83,6 +87,8 @@ class Solution:
 
 # [538. Convert BST to Greater Tree](https://leetcode.com/problems/convert-bst-to-greater-tree/description/)
 題目
+
+<img width="543" alt="image" src="https://github.com/user-attachments/assets/6e1a7e25-fe66-465e-b015-460282afd2d3">
 
 - 類似題
   - [530. Minimum Absolute Difference in BST](https://leetcode.com/problems/minimum-absolute-difference-in-bst/description/)
