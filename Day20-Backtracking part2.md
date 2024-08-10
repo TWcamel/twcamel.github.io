@@ -1,6 +1,8 @@
 # [39. Combination Sum](https://leetcode.com/problems/combination-sum/description/)
 題目
 
+<img width="730" alt="image" src="https://github.com/user-attachments/assets/84c22906-d5c0-4da7-b42b-b39713369b43">
+
 - 回溯 (未剪枝): 題目有規定可以無限重複值，直到找到目標，或大於目標則返回
 ```python
 class Solution:
@@ -57,6 +59,8 @@ class Solution:
 # [40. Combination Sum II](https://leetcode.com/problems/combination-sum-ii/description/)
 題目
 
+<img width="720" alt="image" src="https://github.com/user-attachments/assets/0c6bc1a5-5570-4095-b000-84ab5cddcaad">
+
 - 這題關鍵在於需要做樹層去重, 樹枝去重兩個地方
 ```python
 class Solution:
@@ -88,6 +92,8 @@ class Solution:
 
 # [131. Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/description/)
 題目
+
+<img width="718" alt="image" src="https://github.com/user-attachments/assets/f5d793d0-b518-45f7-a75b-572efe2395d9">
 
 - 第一次遇到分割問題，此問題跟組合問題很像，組合問題問的是有幾種組合，切割問題問有幾種切割方式
 - 本題有兩個關鍵: (1)如何切割?, (2)判斷回文
