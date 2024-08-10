@@ -1,6 +1,8 @@
 # [93. Restore IP Addresses](https://leetcode.com/problems/restore-ip-addresses/description/)
 題目
 
+<img width="633" alt="image" src="https://github.com/user-attachments/assets/88f32b58-f12d-44b2-aa23-fdba0fd2b876">
+
 - 卡關的點, 下次寫題目前要先考慮清楚：
   1.  驗證函數 `s[startIdx] == '0'` 不小心寫成 `s[startIdx] == 0`
   2.  字串左閉右閉 `(startIdx, i)`
@@ -41,6 +43,8 @@ class Solution:
 # [78. Subsets](https://leetcode.com/problems/subsets/description/)
 題目
 
+<img width="531" alt="image" src="https://github.com/user-attachments/assets/e2885f67-9e60-4095-8a48-9c2d7e7f4ea7">
+
 - 本題是子集，可以把它想成組合問題的一種
 - 如果把組合/分割/子集 問題都抽象化成一顆樹的話，***組合與分割問題相當於搜集數的葉節點，而子集則是搜集所有樹的節點***
 ```python
@@ -63,6 +67,8 @@ class Solution:
 
 # [90. Subsets II](https://leetcode.com/problems/subsets-ii/description/)
 題目
+
+<img width="529" alt="image" src="https://github.com/user-attachments/assets/e6ffc945-2063-418d-8d5f-858ea54f550c">
 
 - 此題關鍵在於樹層與樹枝去重，與 [40. Combination Sum II](https://leetcode.com/problems/combination-sum-ii/description/) 類似
 ```python
