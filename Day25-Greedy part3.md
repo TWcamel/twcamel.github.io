@@ -1,6 +1,8 @@
 # [122. Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/description/)
 題目
 
+<img width="531" alt="image" src="https://github.com/user-attachments/assets/f7bb3a64-927b-469d-bedb-6ab9f2ed2edc">
+
 - 從全局的觀點出發:
   - #1. 若 cost > gas, 說明油量不夠繞完一圈
   - #2. gas[i] - cost[i], 為一天剩下的油量，若累加後都無小於零的情況出現，說明可以從原點出發
@@ -29,6 +31,8 @@ class Solution:
 # [135. Candy](https://leetcode.com/problems/candy/description/)
 題目
 
+<img width="536" alt="image" src="https://github.com/user-attachments/assets/43abc967-4478-4f36-867e-78ebabde0f4b">
+
 - 這題列為困難的原因在於，要從局部最優推敲出全局最優
   - #1. 先鎖定一邊考慮左孩子大於右孩子的情況
   - #2. 接著再考慮右邊孩子大於左邊孩子的情況
@@ -51,6 +55,8 @@ class Solution:
 
 # [860. Lemonade Change](https://leetcode.com/problems/lemonade-change/description/)
 題目
+
+<img width="540" alt="image" src="https://github.com/user-attachments/assets/5683a084-72a7-4fd9-9ad1-fb075faf8942">
 
 - 此題可以拆開三種情況來看
   - #1. 收到五刀，當作後面可以找零的來源 (Count + 1)
@@ -84,6 +90,8 @@ class Solution:
 
 - [406. Queue Reconstruction by Height](https://leetcode.com/problems/queue-reconstruction-by-height/description/)
 題目
+
+<img width="536" alt="image" src="https://github.com/user-attachments/assets/d2e1d5fb-9e44-4ef9-8bc4-98ddece6d4d9">
 
 - 此題與 [1005. Maximize Sum Of Array After K Negations](https://leetcode.com/problems/maximize-sum-of-array-after-k-negations/description/), [135. Candy](https://leetcode.com/problems/candy/description/) 非常類似
 - 此題也是先找出區域解，接著再用區域解找到全域最佳解
