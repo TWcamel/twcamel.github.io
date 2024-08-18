@@ -1,6 +1,8 @@
 # [452. Minimum Number of Arrows to Burst Balloons](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/description/)
 題目
 
+<img width="530" alt="image" src="https://github.com/user-attachments/assets/6cde2a50-b8cd-4247-ac69-3799c55e2515">
+
 - 本題考的是重疊區間，區域解是遇到重疊區間就更新範圍，沒有重疊則將 `res += 1`
 ```python
 class Solution:
@@ -45,6 +47,8 @@ class Solution:
 - [435. Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/description/)
 題目
 
+<img width="536" alt="image" src="https://github.com/user-attachments/assets/e44cc6fb-b6af-4306-9c46-95ad8e601807">
+
 - 用 [452. Minimum Number of Arrows to Burst Balloons](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/description/) 稍微修改，讓所有元素扣除不重疊區間就是答案
 - 用右邊排序: 計算不重疊區間數
 ```python
@@ -82,6 +86,8 @@ class Solution:
 
 # [763. Partition Labels](https://leetcode.com/problems/partition-labels/description/)
 題目
+
+<img width="544" alt="image" src="https://github.com/user-attachments/assets/3df3bce0-534f-43cf-a4be-4cc59e8f089e">
 
 - 想到分割就想到回溯，但其實這題不需要使用暴力解，而可以紀錄每個字母的最後一個出現位置，當目前字母與最後字母出現位置相同，代表這是一個分割點
 - #1.紀錄每個字母的最後一次出現位置
