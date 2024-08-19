@@ -1,6 +1,8 @@
 # [56. Merge Intervals](https://leetcode.com/problems/merge-intervals/description/)
 題目
 
+<img width="521" alt="image" src="https://github.com/user-attachments/assets/d752ef43-6827-4da4-b934-1877129240bb">
+
 - 類似題: [452. Minimum Number of Arrows to Burst Balloons](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/description/), [435. Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/description/) 
 - #1. 判斷是否有重疊，若重疊則合併成一個，不重疊則直接貼到結果集內
 ```python
@@ -21,6 +23,8 @@ class Solution:
 # [738. Monotone Increasing Digits](https://leetcode.com/problems/monotone-increasing-digits/description/)
 題目
 
+<img width="526" alt="image" src="https://github.com/user-attachments/assets/a833def9-e7aa-4f70-9f26-d876659a86c4">
+
 - #1. 如何想到 greedy? >> 為了保持單調性質，可以若 s[i-1] > s[i], 可以將 s[i-1] 減去一, 然後再將 s[i] 以後的數字都設定為 `9`, 這就可以聯想到貪心
 - #2. 但此題還考驗需要重複利用上次結果的特性，因此要後向前序遍歷
 ```python
@@ -38,6 +42,8 @@ class Solution:
 
 # [968. Binary Tree Cameras](https://leetcode.com/problems/binary-tree-cameras/description/)
 題目
+
+<img width="536" alt="image" src="https://github.com/user-attachments/assets/58a285df-7194-46fa-8184-e1bf6370100c">
 
 - 這邊要考的地方是
   - #1. 如何進行遍歷?
