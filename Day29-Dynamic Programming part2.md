@@ -52,3 +52,17 @@ class Solution:
 
         return dp[m - 1][n - 1]
 ```
+
+# [343. Integer Break](https://leetcode.com/problems/integer-break/description/)
+題目
+
+- 留到二刷寫
+```python
+```
+
+# [96. Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees/description/)
+題目
+
+- 留到二刷寫
+```python
+```

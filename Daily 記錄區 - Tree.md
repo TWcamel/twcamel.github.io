@@ -1,8 +1,10 @@
 # [104. Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/description/)
 題目
 
+<img width="537" alt="image" src="https://github.com/user-attachments/assets/91599f56-c05b-43eb-91cd-b480a67f1308">
+
 思路
-- 本題實作六大演算法
+- 這題有卡住一段時間，卡住的原因是不熟悉 `l, r = dfs(node.left), dfs(node.right)`, 以及對應的回傳值寫法
 ```python
 # Definition for a binary tree node.
 # class TreeNode:
