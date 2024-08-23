@@ -190,6 +190,14 @@ class Solution:
 # [37. Sudoku Solver](https://leetcode.com/problems/sudoku-solver/description/)
 題目
 
-- 太累了，明天補上 ＝ ＝
+<img width="538" alt="image" src="https://github.com/user-attachments/assets/34f42614-7a52-4360-819f-98fbc9fd42dd">
+
+- 留到二刷寫
 ```python
+class Solution:
+    def solveSudoku(self, board: List[List[str]]) -> None:
+        """
+        Do not return anything, modify board in-place instead.
+        """
+        
 ```
