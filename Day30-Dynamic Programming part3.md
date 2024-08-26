@@ -1,6 +1,8 @@
 # [46. 攜帶研究資料（第六期模擬筆試）](https://kamacoder.com/problempage.php?pid=1046)
 題目
 
+<img width="596" alt="image" src="https://github.com/user-attachments/assets/782522f3-bd7e-4932-aeb9-d62190663d70">
+
 - 五部曲
   1. dp[i][j] 含義： dp[i][j] 代表物品 i 在重量 j 的最大價值
   2. 遞推公式 (拿紙筆舉例畫一下)： 重量夠放多樣物品：`dp[i][j] = max(dp[i-1][j], dp[i-1][j-weight] + value[i])`, 重量不夠放物品i: `dp[i][j] = dp[i-1][j]`
@@ -55,6 +57,8 @@ print(dp[n])
 
 # [416. Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/description/)
 題目
+
+<img width="532" alt="image" src="https://github.com/user-attachments/assets/969c35e7-ac37-42f4-b377-b7885d4d0495">
 
 - 本題可以用 backtrack 來解，但會碰到超時問題
 - 轉化問題：分析以下四點符合 0-1 背包特徵，那就試試看 (注意，如果 4. 可以重複，那就變成完全背包問題)
