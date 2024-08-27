@@ -1,6 +1,8 @@
 # [1049. Last Stone Weight II](https://leetcode.com/problems/last-stone-weight-ii/description/)
 題目
 
+<img width="538" alt="image" src="https://github.com/user-attachments/assets/3bed494e-98ca-428d-82ee-08c71fb5f01c">
+
 - 思路
   1. 此題本質上是求解將石頭堆分為重量相同的兩堆, 兩兩相撞後剩下重量為最小
   2. dp[j] = 最多可以容納的重量為 dp[j]
@@ -27,6 +29,8 @@ class Solution:
 
 # [494. Target Sum](https://leetcode.com/problems/target-sum/description/)
 題目
+
+<img width="530" alt="image" src="https://github.com/user-attachments/assets/34a53793-2f5d-4c8f-a7ea-022a4a86b656">
 
 - 思路
   1. 本題前，都是求容量為 j 的背包，最多能裝多少重量；但本題為求幾種裝背包方法（組合數量）的題目
@@ -57,6 +61,8 @@ class Solution:
 
 # [474. Ones and Zeroes](https://leetcode.com/problems/ones-and-zeroes/description/)
 題目
+
+<img width="531" alt="image" src="https://github.com/user-attachments/assets/0d571345-68a6-4a13-a5c0-9b098cace97a">
 
 - 思路
   1. 看到題目首先問自己，這是什麼類型的背包問題：如果把 m, n 看成不同東西，那會變成多多重背包，但 m, n 本質上就是同一個字串延伸出來的東西，因此可以視為同一個物品，因此是 0-1 背包！
