@@ -1,6 +1,8 @@
 # [52. 携带研究材料（第七期模拟笔试）](https://kamacoder.com/problempage.php?pid=1052)
 題目
 
+<img width="604" alt="image" src="https://github.com/user-attachments/assets/eb95d90d-16be-4592-9dc2-356c6d45fabd">
+
 - 完全背包 v.s. 0-1 背包問題
   - 完全背包定義： 每項物品有無限多個，求背包容量的最大價值為多少?
   - 跟 0-1 背包的差異： **差異在於遍歷順序**，因此也可以使用五部曲來分析此類型的題目
@@ -38,6 +40,8 @@ print(dp[v])
 # [518. Coin Change II](https://leetcode.com/problems/coin-change-ii/description/)
 題目
 
+<img width="542" alt="image" src="https://github.com/user-attachments/assets/fe450815-736e-4ab6-a898-d62dc2c0a8d2">
+
 - 思路
   - 本題求給定的硬幣種類及總量，求最多組合數量的硬幣種類
   - 這題看到組合，應該可以直接連想到回溯，但會超時！因此用 DP 來解此題
@@ -64,6 +68,8 @@ class Solution:
 # [377. Combination Sum IV](https://leetcode.com/problems/combination-sum-iv/description/)
 題目
 
+<img width="534" alt="image" src="https://github.com/user-attachments/assets/3fc299ec-e157-494b-bfe2-071031a6063f">
+
 與 [518. Coin Change II](https://leetcode.com/problems/coin-change-ii/description/) 不同的點，本題是求排列數量，因此要先遍歷容量再遍歷物品
 ```python
 class Solution:
@@ -81,6 +87,8 @@ class Solution:
 
 # [57. 爬楼梯（第八期模拟笔试）](https://kamacoder.com/problempage.php?pid=1067)
 題目
+
+<img width="599" alt="image" src="https://github.com/user-attachments/assets/ceb9aee8-7c49-4d09-87b6-28e3433bc071">
 
 ```python
 n, m = map(int, input().split())
