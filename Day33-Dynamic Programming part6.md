@@ -111,6 +111,8 @@ class Solution:
 # [56. 携带矿石资源（第八期模拟笔试）](https://kamacoder.com/problempage.php?pid=1066)
 題目
 
+<img width="592" alt="image" src="https://github.com/user-attachments/assets/a9cd9b1b-984b-4057-b4fe-abf01faaff29">
+
 - 多重背包問題
   - 每件物品最多有 Mi 件可用，把 Mi 件攤開，其實就是一個 01 背包問題了
 ```python
@@ -133,3 +135,5 @@ for i in range(N):
 
 print(dp[C])
 ```
+
+# 背包總結
