@@ -1,6 +1,8 @@
 # [322. Coin Change](https://leetcode.com/problems/coin-change/description/)
 題目
 
+<img width="529" alt="image" src="https://github.com/user-attachments/assets/c59d5b49-89ea-4a3a-a9aa-6af23e1452ba">
+
 - 思路
   - 與 [518. Coin Change II](https://leetcode.com/problems/coin-change-ii/description/) 類似，但本題是求最小少的組合個數
 - 五部曲
@@ -28,6 +30,8 @@ class Solution:
 # [279. Perfect Squares](https://leetcode.com/problems/perfect-squares/description/)
 題目
 
+<img width="535" alt="image" src="https://github.com/user-attachments/assets/6ed1831c-3779-46ed-9e43-ec8b44e90cad">
+
 - 思路
   - 把數字看成是物品，可以無限重複使用，湊正整數 n（容量），這就與與前一題 [322. Coin Change](https://leetcode.com/problems/coin-change/description/) 是一模一樣的題目了！
 - 五部曲
@@ -53,6 +57,8 @@ class Solution:
 
 # [139. Word Break](https://leetcode.com/problems/word-break/description/)
 題目
+
+<img width="534" alt="image" src="https://github.com/user-attachments/assets/afa36d73-4f8f-4bff-b062-fdb9484f9fd6">
 
 - 思路
   - 看到分割就想到用回溯，但本主題主要是要用 dp 求解，因此兩種都寫上!
@@ -100,4 +106,30 @@ class Solution:
                     dp[i] = True
         
         return dp[len(s)]
+```
+
+# [56. 携带矿石资源（第八期模拟笔试）](https://kamacoder.com/problempage.php?pid=1066)
+題目
+
+- 多重背包問題
+  - 每件物品最多有 Mi 件可用，把 Mi 件攤開，其實就是一個 01 背包問題了
+```python
+C, N = map(int, input().split())
+weight = list(map(int, input().split()))
+value = list(map(int, input().split()))
+capacity = list(map(int, input().split()))
+
+dp = [0] * (C + 1)
+
+# 先遍歷物品再遍歷背包，作為01背包處理
+for i in range(N):
+    for j in range(C, weight[i] - 1, -1):
+        # 遍歷每種物品的數量
+        for k in range(1, capacity[i] + 1):
+            # 遍歷 k，如果已經大於背包容量直接跳出循環
+            if k * weight[i] > j:
+                break
+            dp[j] = max(dp[j], dp[j - k * weight[i]] + k * value[i])
+
+print(dp[C])
 ```
