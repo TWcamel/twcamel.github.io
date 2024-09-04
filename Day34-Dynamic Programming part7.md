@@ -1,6 +1,8 @@
 # [198. House Robber](https://leetcode.com/problems/house-robber/description/)
 題目
 
+<img width="534" alt="image" src="https://github.com/user-attachments/assets/df255d61-6b1e-41ef-8fe4-74daf648353e">
+
 - 思路
   1. dp[i]：在考慮下標為 i 以內的房子中，能夠偷到的最大金額為 dp[i]
   2. dp[i] = max(dp[i-1], dp[i-2] + nums[i])
@@ -27,6 +29,8 @@ class Solution:
 
 # [213. House Robber II](https://leetcode.com/problems/house-robber-ii/description/)
 題目
+
+<img width="665" alt="image" src="https://github.com/user-attachments/assets/f8765c64-2a6c-4db1-80de-965f953ac3ee">
 
 - 思路：把以下情況都考慮進來之後分開解決，就可以轉化成 [198. House Robber](https://leetcode.com/problems/house-robber/description/)
   - 情況一：不考慮頭尾元素，只考慮中間元素
@@ -62,6 +66,8 @@ class Solution:
 # [337. House Robber III](https://leetcode.com/problems/house-robber-iii/description/)
 題目: 本題是樹形 dp 的經典問題
 
+<img width="537" alt="image" src="https://github.com/user-attachments/assets/07dde6c6-c80d-4944-b51b-aacde3f28f96">
+
 - 思路: 可以用遞迴解，但會 TLE
 ```python
 # Definition for a binary tree node.
@@ -92,7 +98,7 @@ class Solution:
 #         self.val = val
 #         self.left = left
 #         self.right = right
-class Solution:
+class solution:
     mem = {}
     def rob(self, root: Optional[TreeNode]) -> int:
         if not root:
