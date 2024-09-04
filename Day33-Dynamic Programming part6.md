@@ -137,3 +137,4 @@ print(dp[C])
 ```
 
 # 背包總結
+<img width="410" alt="image" src="https://github.com/user-attachments/assets/f5e4ba40-8e3b-4202-bf52-697f0599b6f6">
