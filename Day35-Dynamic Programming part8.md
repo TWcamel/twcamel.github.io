@@ -1,6 +1,8 @@
 # [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/)
 題目
 
+<img width="659" alt="image" src="https://github.com/user-attachments/assets/e717ad08-b492-43bd-8d5c-8baa62f2b456">
+
 - 暴力解: 最直接的想法
 ```python
 class Solution:
@@ -47,6 +49,8 @@ class Solution:
 # [122. Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/description/)
 題目
 
+<img width="660" alt="image" src="https://github.com/user-attachments/assets/3bb4ab47-7452-4450-8710-4dea62fd319c">
+
 - 貪心: 如果找不到反例，那就試試貪心
 ```python
 class Solution:
@@ -77,6 +81,8 @@ class Solution:
 # [123. Best Time to Buy and Sell Stock III](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/description/)
 題目
 
+<img width="662" alt="image" src="https://github.com/user-attachments/assets/e049cbe8-1e55-401a-ae38-2ea3557de818">
+
 - dp
   1. dp[i][j]: 第 i 天時, 可以選擇的操作項目為 j (j=0,1,2,3,4 表 不操作,第一次買股票,第一次賣股票,第二次買股票,第二次賣股票), dp[i][j] 表示第 i 天在狀態 j 下的最大剩餘現金
   2. 這裡很多細節，我們逐一分析
@@ -96,7 +102,7 @@ class Solution:
     - 第 0 天賣出第一次股票 (不可能): dp[0][2] = 0
     - 第 0 天買入第二次股票 (等於第 0 天買入第一次又賣出，才買了第二次股票): dp[0][3] -= prices[0]
     - 第 0 天賣出第二次股票 (不可能): dp[0][4] = 0
-  4. 前向後遍歷
+  4. **前向後遍歷**
   5. dry run
 ```python
 class Solution:
