@@ -1,6 +1,8 @@
 # [188. Best Time to Buy and Sell Stock IV](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/description/)
 題目
 
+<img width="651" alt="image" src="https://github.com/user-attachments/assets/7ab0ff29-33ae-4d50-92eb-7a8feba3c68f">
+
 - 類似題：[123. Best Time to Buy and Sell Stock III](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/description/)
 - dp:
   1. dp[i][j]: 在第 i 天的第 j 個狀態下，手上剩餘的最大現金量為 dp[i][j]
@@ -55,6 +57,8 @@ class Solution:
 # [309. Best Time to Buy and Sell Stock with Cooldown](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/description/)
 題目
 
+<img width="667" alt="image" src="https://github.com/user-attachments/assets/d2789bff-0d86-4adf-99ce-a7fd0c4a502e">
+
 1. dp[i][j]: 第 i 天的狀態為 j, 手上剩餘的最多現金為 dp[i][j]
    - 狀態轉移可以畫成如下圖 (j 共有四個狀態, 0~3 分別代表狀態一～四):
    - ![picture 1](images/53e56817459b94e558fb8392edad5dd2f02c5a65a6f53b62d67eadb6035b9d44.png)
@@ -103,6 +107,8 @@ class Solution:
 ```
 
 # [714. Best Time to Buy and Sell Stock with Transaction Fee](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/description/)
+
+<img width="663" alt="image" src="https://github.com/user-attachments/assets/97f13ccd-f18e-4fdf-a292-271d199a426f">
 
 - 與 [122. Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/description/) 唯一區別在於，一個交易對賣出時有手續費產生, 因此最後反回值的時候，也要考慮手續費造成的影響
 ```python
