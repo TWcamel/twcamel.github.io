@@ -1,6 +1,8 @@
 # [300. Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/description/)
 題目
 
+<img width="536" alt="image" src="https://github.com/user-attachments/assets/874614f4-ac7d-48f1-8c5d-dfdbd5a061ba">
+
 - 思路： 子序列問題是經典的 dp 問題，這題也是第一次寫到的類似題目，可以當作日後參考
   1. dp[i]: 下標 i 以前，包含 i，以 nums[i] 為結尾的最長遞增子序列長度
   2. dp[i] = max(dp[i], dp[j] + 1)
@@ -31,6 +33,8 @@ class Solution:
 # [674. Longest Continuous Increasing Subsequence](https://leetcode.com/problems/longest-continuous-increasing-subsequence/description/)
 題目
 
+<img width="664" alt="image" src="https://github.com/user-attachments/assets/2470b1ea-8b7c-4f41-bdc4-a80e00c6e66f">
+
 - 類似題： [300. Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/description/)
 - 思路： 看到子序就想到 dp, 本題要求要是最長的連續子序列
   1. 以下標 i 為結尾的連續最長遞增子序列長度為 dp[i]
@@ -55,6 +59,8 @@ class Solution:
 
 # [718. Maximum Length of Repeated Subarray](https://leetcode.com/problems/maximum-length-of-repeated-subarray/description/)
 題目
+
+<img width="537" alt="image" src="https://github.com/user-attachments/assets/f9b0ccc0-a676-4f62-bc56-870b4e8a4609">
 
 - 思路： 看到子序就想到 dp, 兩數組最長子序列，可以視作求二維版本最大連續子序列 [674. Longest Continuous Increasing Subsequence](https://leetcode.com/problems/longest-continuous-increasing-subsequence/description/)
   1. dp[i][j]: 以下標 i-1 為結尾的 A, 和以下標 j-1 為結尾的 B, 重複最長子序列為 dp[i][j]
