@@ -1,6 +1,8 @@
 # [115. Distinct Subsequences](https://leetcode.com/problems/distinct-subsequences/description/)
 題目
 
+<img width="415" alt="image" src="https://github.com/user-attachments/assets/549eec31-c19f-457f-9422-fa8a1b805578">
+
 - 思路： [392. Is Subsequence](https://leetcode.com/problems/is-subsequence/description/) 的延伸題，這題是不連續數組，若連續的話可以用 KMP 來解, 本題也無法使用雙指針，因此用 dp 來解
   1. dp[i][j]: 以 i-1 為結尾的 s 子序列中, 出現與 j-1 為結尾的 t 的相符個數為 dp[i][j]
   2. dp[i][j] 公式：分相同與不相同兩種 case 來看
@@ -53,6 +55,8 @@ class Solution:
 # [2707. Extra Characters in a String](https://leetcode.com/problems/extra-characters-in-a-string/description/?envType=daily-question&envId=2024-09-23)
 題目
 
+<img width="538" alt="image" src="https://github.com/user-attachments/assets/6a7cfe2f-98a7-4a91-aa60-ef2dfe2f931c">
+
 - 思路: 本題與以往遇到的子序列不同處在於，本題找 s 子序列是否出現在給定的 dictionary 內，而不是給定兩個數組比較各自的子序列，但一樣，看到子序列優先想到 dp
   1. dp[i]: [0, i-1] 的 s 的子序列中，扣掉比對 dictionary 的字符數量後，剩餘最少的字符數為 dp[i]
   2. dp[i] = min(dp[i], dp[i-l])
@@ -85,6 +89,8 @@ class Solution:
 
 # [583. Delete Operation for Two Strings](https://leetcode.com/problems/delete-operation-for-two-strings/description/)
 題目
+
+<img width="539" alt="image" src="https://github.com/user-attachments/assets/50a93538-2468-453b-a8aa-fffcf8305100">
 
 - 思路： 本題與 [115. Distinct Subsequences](https://leetcode.com/problems/distinct-subsequences/description/) 不同處在於，這裡可以操作的範圍變成兩個數組，但基本的思路是相同的
   1. dp[i][j]: 以 i-1 為的 word1 的字串，與 j-1 為結尾的字串 word2, 兩者要達到相同字串所需進行的最少操作次數為 dp[i][j]
@@ -130,6 +136,8 @@ class Solution:
 
 # [72. Edit Distance](https://leetcode.com/problems/edit-distance/description/)
 題目
+
+<img width="531" alt="image" src="https://github.com/user-attachments/assets/1755cbcd-7971-4155-95ee-b9b5acdc5d2b">
 
 - 思路： 此題與 [583. Delete Operation for Two Strings](https://leetcode.com/problems/delete-operation-for-two-strings/description/) 不同在於 “操作方法”，本題允許“增刪改”三種操作方法，而該題只允許刪除方法
 ```python
