@@ -1,6 +1,8 @@
 # [647. Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/description/)
 題目
 
+<img width="633" alt="image" src="https://github.com/user-attachments/assets/942663b0-b4ce-47a9-816c-67676bbe61a3">
+
 - 思路: 本題思考關鍵在於我們 **如何利用上次的狀態，推敲出目前狀態**，仔細觀察題目與迴文性質:
   - 我們在判斷字串S是否是回文，如果我們知道s[1]，s[2]，s[3]這個子字串是回文的，那麼只需要比較s[0]和s[4]這個元素是否相同，如果相同的話，這兩個字串就是回文字串 (如下圖)
   - ![picture 0](images/a9b4eedef15a54b1a50617fdbd2378e7a433ff2cad7945acd5b6720f01856950.png)  
@@ -41,8 +43,10 @@ class Solution:
                             dp[i][j] = True
         return res
 ```
-# [5. Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/description/)
+# [516. Longest Palindromic Subsequence](https://leetcode.com/problems/longest-palindromic-subsequence/description/)
 題目
+
+<img width="645" alt="image" src="https://github.com/user-attachments/assets/20574be3-4d15-4986-9870-a2fb43c1e5ee">
 
 - 思路: 本題與 [647. Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/description/) 差異在於, 本題不要求連續, 但基本思路是一至的
     1. dp[i][j]: 字串 s 在範圍 [i,j] 內，最長的回文字串長度為 dp[i][j]
