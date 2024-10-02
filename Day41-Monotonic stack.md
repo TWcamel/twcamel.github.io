@@ -12,6 +12,8 @@
 ## [739. Daily Temperatures](https://leetcode.com/problems/daily-temperatures/description/)
 題目
 
+<img width="547" alt="image" src="https://github.com/user-attachments/assets/f1b9f0f6-8547-4891-9769-a9a2a8259339">
+
 - 思路: 根據上面定義,看到本題可以直接聯想到 Monotoic Stack
     1. 存放元素：裡面存放的元素為 T 內元素的下標 i
     2. 遞增 or 遞減？ 因為本題為求下標 i 元素後的第一個大於元素，因此從棧頂向棧底應該為遞增排序，才能符合題意
@@ -56,8 +58,35 @@ class Solution:
             st.append(i)
 ```
 
-## [739. Daily Temperatures](https://leetcode.com/problems/daily-temperatures/description/)
+## [496. Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/description/)
 題目
+
+- 思路: 在 [739. Daily Temperatures](https://leetcode.com/problems/daily-temperatures/description/) 中是求每個元素下一個比目前元素大的元素的位置。 本題則是說 nums1 是 nums2 的子集，找 nums1 中的元素在 nums2 中下一個比目前元素大的元素。注意，題目有說到沒有重複數組，因此可以用 map 開紀錄走過的元素
+```python
+class Solution:
+    def nextGreaterElement(self, nums1: List[int], nums2: List[int]) -> List[int]:
+        st, mp, res = deque(), {}, [-1] * len(nums1)
+
+        st.append(0)
+        
+        for i in range(1, len(nums2)):
+            if nums2[st[-1]] >= nums2[i]:
+                st.append(i)
+            else:
+                while len(st) > 0 and nums2[st[-1]] < nums2[i]:
+                    if nums2[st[-1]] in nums1:
+                        idx = nums1.index(nums2[st[-1]])
+                        res[idx] = nums2[i]
+                    st.pop()
+                st.append(i)
+
+        return res
+```
+
+## [503. Next Greater Element II](https://leetcode.com/problems/next-greater-element-ii/description/)
+題目
+
+<img width="551" alt="image" src="https://github.com/user-attachments/assets/3df44bcc-9705-4e5a-84f8-3818e5700793">
 
 - 思路: 題目給出的範例有提示 circularly loop, 因此可以把此題目視作 [739. Daily Temperatures](https://leetcode.com/problems/daily-temperatures/description/)，將數組 double 並迭代兩次的版本
 ```python
