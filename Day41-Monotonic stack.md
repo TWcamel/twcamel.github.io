@@ -56,10 +56,14 @@ class Solution:
                 res[st[-1]] = i - st[-1]
                 st.pop()
             st.append(i)
+
+        return res
 ```
 
 ## [496. Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/description/)
 題目
+
+<img width="551" alt="image" src="https://github.com/user-attachments/assets/795e48c8-9ffa-454b-9c74-742febc8538d">
 
 - 思路: 在 [739. Daily Temperatures](https://leetcode.com/problems/daily-temperatures/description/) 中是求每個元素下一個比目前元素大的元素的位置。 本題則是說 nums1 是 nums2 的子集，找 nums1 中的元素在 nums2 中下一個比目前元素大的元素。注意，題目有說到沒有重複數組，因此可以用 map 開紀錄走過的元素
 ```python
