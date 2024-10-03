@@ -1,6 +1,8 @@
 # [42. Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/description/)
 題目
 
+<img width="552" alt="image" src="https://github.com/user-attachments/assets/f3bcd4d7-f5c4-4975-bfb7-38a98afea39c">
+
 - 思路: 本題面試高頻題，下面用三個版本來解題
 1. 暴力解法 (雙指針)：會 TLE
 ```python
@@ -102,6 +104,8 @@ class Solution:
 
 # [84. Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/description/)
 題目
+
+<img width="554" alt="image" src="https://github.com/user-attachments/assets/8c32f9e3-8a8e-4f78-8190-3d1810de8f8c">
 
 - 思路: 本題與 [42. Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/description/) 非常類似，因此，本題也會使用三種解法來解題
 1. 暴力解法 (雙指針)：會 TLE
